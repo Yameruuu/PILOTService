@@ -1,0 +1,104 @@
+body {
+    background-image: url(https://i.gifer.com/origin/30/307c73143a955f1e0bf26a41b98a035c.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 47%;
+    background-position: center right;
+    font-family: Helvetica;
+}
+nav {
+    top:10;
+    margin-left: 35px;
+    width:95%;
+    height:60px;
+    padding:10px 80px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: 1px solid #ffffff;
+    
+ }
+ 
+ nav .Logo {
+   
+   width: 90px;
+   float: left;
+   margin-top: -25px;
+   
+   
+ }
+ 
+ 
+
+ nav ul{
+     list-style: none;
+     float: right;
+     margin: 0;
+     padding: 0;
+     display: flex;
+ }
+ 
+ nav ul li a {
+     line-height: 43px;
+     color: white;
+     padding: 12px 30px;
+     text-decoration: none;
+     font-size: 14px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ nav ul li a:hover{
+    background-color: #096574;
+    border-radius: 6px;
+ }
+
+
+ h1 {
+     font-size: 150px;
+     font-weight: bolder;
+     margin-left: 120px;
+     margin-bottom: 40px;
+     background: -webkit-linear-gradient(white, rgb(139, 177, 214), #d5c8c8);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-shadow:0 0 1px dodgerblue,
+                 0 0 3px dodgerblue;
+
+ }
+ h2 {
+    font-weight: bolder;
+    margin-left: 128px;
+    font-size: 15px;
+    word-spacing: normal;background: -webkit-linear-gradient(white, #d6e3e3, #d5c8c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:0 0 2px white,
+                0 0 3px white
+                0 0 5px #4ababa,
+                0 0 10px #4ababa,
+                0 0 22px #4ababa;
+    
+    
+ }
+ button{
+     margin-top: 50px;
+     background-color: black;
+     border-radius: 20px;
+     width: 130px;
+     padding: 8px;
+     font-weight: bold;
+     word-spacing: normal;
+     font-size: 18px;
+     margin-left: 250px;
+     color: #d6e3e3;
+     border:1px solid #d6e3e3;
+     transition: 0.3s;
+ }
+ button:hover{
+    border-radius:20px;
+    border:1px solid #000000;
+    background-color: rgb(23, 138, 252);
+ }
+
+ 
